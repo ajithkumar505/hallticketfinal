@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.aji {
+    background-color: rgb(28, 27, 29);
+    border-radius: 18px;
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 300px;
+    width: 900px;
+    text-align: center;
+    padding-right: 10%;
+}
+.aji h1{
+    color: aqua;
+    text-align: center;
+    font-style:normal;
+    font-weight: bold;
+    padding-right: 15%;
+    padding-bottom: 1%;
+    background-attachment: fixed;
+    background-position:center;
+    text-decoration: #ff0000 underline;
+    
+}
+
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    text-align: center;
+    padding: 20PX 20px;
+    border: none;
+    cursor:grab;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+    padding-left: 100px;
+    float: left;
+}
+
+.btn-1 {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    text-decoration:solid;
+    text-align-last: center;
+    text-align:center;
+    padding-left:-5%;
+}
+
+
+.btn-1:hover {
+    background-color: #00ff08 ;
+    transform: scale(1.1);
+    text-align: center;
+}
+
+.btn-2 {
+    background-color: #ffffff;
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-2:hover {
+    background-color: #fffb00;
+    transform: scale(1.1);
+}
+.btn-3{
+    background-color: #ffffff;
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-3:hover {
+    background-color: #1e5aff;
+    transform: scale(1.1);
+}
